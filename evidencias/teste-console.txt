@@ -1,0 +1,39 @@
+TESTE DE INTEGRAÇÃO DO EXECUTÁVEL
+Cadastro, reinício, venda, histórico, alteração e exclusão: APROVADO
+
+
+GAMESTORE | 1 Listar | 2 Cadastrar | 3 Alterar | 4 Excluir | 5 Vender | 6 Vendas | 0 Sair
+Opção: Nome: Preço (ex.: 59,90): Estoque: Produto cadastrado.
+
+GAMESTORE | 1 Listar | 2 Cadastrar | 3 Alterar | 4 Excluir | 5 Vender | 6 Vendas | 0 Sair
+Opção: a2cae26b-726c-4d7b-b937-c9f13cd5abb0 | Jogo teste | R$ 59.90 | Estoque: 4
+
+GAMESTORE | 1 Listar | 2 Cadastrar | 3 Alterar | 4 Excluir | 5 Vender | 6 Vendas | 0 Sair
+Opção: 
+
+GAMESTORE | 1 Listar | 2 Cadastrar | 3 Alterar | 4 Excluir | 5 Vender | 6 Vendas | 0 Sair
+Opção: ID completo: Quantidade: Venda registrada. Total: R$ 119.80
+
+GAMESTORE | 1 Listar | 2 Cadastrar | 3 Alterar | 4 Excluir | 5 Vender | 6 Vendas | 0 Sair
+Opção: a0aed133-31c5-4dbb-9431-e3dd7dc9c9bf | 2026-11-04T18:35:48.441239229Z | Jogo teste | 2 un. | R$ 119.80
+
+GAMESTORE | 1 Listar | 2 Cadastrar | 3 Alterar | 4 Excluir | 5 Vender | 6 Vendas | 0 Sair
+Opção: a2cae26b-726c-4d7b-b937-c9f13cd5abb0 | Jogo teste | R$ 59.90 | Estoque: 2
+
+GAMESTORE | 1 Listar | 2 Cadastrar | 3 Alterar | 4 Excluir | 5 Vender | 6 Vendas | 0 Sair
+Opção: 
+
+GAMESTORE | 1 Listar | 2 Cadastrar | 3 Alterar | 4 Excluir | 5 Vender | 6 Vendas | 0 Sair
+Opção: ID completo: Nome: Preço (ex.: 59,90): Estoque: Produto alterado.
+
+GAMESTORE | 1 Listar | 2 Cadastrar | 3 Alterar | 4 Excluir | 5 Vender | 6 Vendas | 0 Sair
+Opção: ID completo: Produto excluído.
+
+GAMESTORE | 1 Listar | 2 Cadastrar | 3 Alterar | 4 Excluir | 5 Vender | 6 Vendas | 0 Sair
+Opção: Nenhum produto cadastrado.
+
+GAMESTORE | 1 Listar | 2 Cadastrar | 3 Alterar | 4 Excluir | 5 Vender | 6 Vendas | 0 Sair
+Opção: a0aed133-31c5-4dbb-9431-e3dd7dc9c9bf | 2026-11-04T18:35:48.441239229Z | Jogo teste | 2 un. | R$ 119.80
+
+GAMESTORE | 1 Listar | 2 Cadastrar | 3 Alterar | 4 Excluir | 5 Vender | 6 Vendas | 0 Sair
+Opção: 

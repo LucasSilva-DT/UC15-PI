@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="GameStore" default="jar" basedir=".">
+    <property file="nbproject/project.properties"/>
+    <target name="clean"><delete dir="build"/><delete dir="dist"/></target>
+    <target name="compile"><mkdir dir="build/classes"/><javac srcdir="src" destdir="build/classes" release="17" encoding="UTF-8" includeantruntime="false"/></target>
+    <target name="jar" depends="compile"><mkdir dir="dist"/><jar destfile="dist/GameStore.jar" basedir="build/classes"><manifest><attribute name="Main-Class" value="br.com.gamestore.Main"/></manifest></jar></target>
+    <target name="run" depends="compile"><java classname="br.com.gamestore.Main" fork="true" dir="." failonerror="true"><classpath path="build/classes"/></java></target>
+    <target name="test" depends="compile"><java classname="br.com.gamestore.Main" fork="true" failonerror="true"><classpath path="build/classes"/><arg value="--test"/></java></target>
+    <target name="debug" depends="compile"><fail message="Execute o Main.java pelo depurador do NetBeans."/></target>
+</project>

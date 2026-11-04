@@ -1,0 +1,5 @@
+build/
+dist/
+dados/
+nbproject/private/
+*.class

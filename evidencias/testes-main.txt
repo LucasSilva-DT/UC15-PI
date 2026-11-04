@@ -1,0 +1,27 @@
+OK 1 - Estado inicial vazio
+OK 2 - Cadastro e normalização
+OK 3 - Nome duplicado
+OK 4 - Nome vazio
+OK 5 - Preço zero
+OK 6 - Preço negativo
+OK 7 - Mais de duas casas
+OK 8 - Estoque negativo
+OK 9 - Produto inexistente
+OK 10 - Venda com quantidade zero
+OK 11 - Venda com quantidade negativa
+OK 12 - Estoque insuficiente
+OK 13 - Rejeições não alteram estado
+OK 14 - Total decimal exato
+OK 15 - Baixa no estoque
+OK 16 - Data controlável e histórico
+OK 17 - Alteração do produto
+OK 18 - Histórico mantém preço e nome originais
+OK 19 - Lista imutável
+OK 20 - Exclusão preserva histórico
+OK 21 - Excluir inexistente
+OK 22 - Persistência de produtos
+OK 23 - Persistência de vendas e UTF-8
+OK 24 - Arquivo corrompido é rejeitado
+OK 25 - Falha de gravação é propagada
+OK 26 - Falha não baixa estoque nem registra venda
+RESULTADO: 26 testes aprovados.
