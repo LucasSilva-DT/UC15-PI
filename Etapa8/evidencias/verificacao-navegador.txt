@@ -1,0 +1,26 @@
+VERIFICAÇÃO DA ETAPA 8 - 04/11/2026
+Ambiente: navegador Chromium, aplicação servida por HTTP estático no ambiente de teste.
+
+APROVADO - abertura do painel e navegação por hash.
+APROVADO - cadastro vazio rejeitado com mensagem e foco no nome.
+APROVADO - preço zero rejeitado com mensagem no campo.
+APROVADO - cadastro de Produto teste E8, R$ 10,50 e estoque 3.
+APROVADO - busca pelo nome exibiu somente o produto cadastrado.
+APROVADO - duplicidade com caixa/espaços distintos rejeitada.
+APROVADO - venda de 4 unidades com estoque 3 rejeitada.
+APROVADO - resumo de 2 x R$ 10,50 calculou R$ 21,00.
+APROVADO - confirmação registrou venda e baixou estoque para 1.
+APROVADO - venda persistiu após recarregar a página.
+APROVADO - edição atualizou nome/preço mantendo estoque e ID.
+APROVADO - cancelamento da exclusão preservou o produto.
+APROVADO - exclusão removeu produto e manteve histórico com nome e preço originais.
+APROVADO - filtro Sem estoque exibiu somente Jogo de aventura, com saldo zero.
+APROVADO - busca inexistente exibiu estado vazio e Limpar filtros restaurou listagem.
+APROVADO - resumo de 2 Headset gamer calculou R$ 459,80.
+APROVADO - painel responsivo em frame de 360 px não provocou transbordamento horizontal do documento.
+
+APROVADO - menu de navegação refluído em duas colunas, sem corte de opções em 360 px.
+APROVADO - atalho Pular para o conteúdo foca o conteúdo sem trocar a página atual.
+APROVADO - mensagem de estoque insuficiente é limpa ao corrigir a quantidade.
+
+Observação: tabelas têm rolagem horizontal própria. Os testes não cobrem todos os navegadores ou dispositivos físicos. A aplicação é um protótipo local, sem back-end.

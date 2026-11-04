@@ -1,0 +1,38 @@
+✔ preço com vírgula vira centavos exatos (2.190781ms)
+✔ preço com ponto é aceito (0.268832ms)
+✔ preço inteiro é aceito (0.503853ms)
+✔ preço zero é rejeitado (1.012593ms)
+✔ preço negativo é rejeitado (0.197884ms)
+✔ três casas decimais são rejeitadas (0.390399ms)
+✔ texto e notação científica são rejeitados (0.199807ms)
+✔ preço acima do limite é rejeitado (0.264135ms)
+✔ estoque zero é aceito (0.306561ms)
+✔ estoque negativo e decimal são rejeitados (0.655085ms)
+✔ limite inteiro máximo é aceito (0.175198ms)
+✔ inteiro acima do limite é rejeitado (0.257606ms)
+✔ nome vazio é rejeitado (1.243327ms)
+✔ nome tem espaços externos removidos (0.302995ms)
+✔ duplicidade ignora caixa e espaços (1.843138ms)
+✔ cadastro mantém estado anterior imutável (0.253529ms)
+✔ edição mantém identificador e atualiza dados (0.252247ms)
+✔ edição para nome duplicado é rejeitada (1.687308ms)
+✔ venda calcula total exato e baixa estoque (1.417059ms)
+✔ centavos não usam ponto flutuante (0.150901ms)
+✔ total acima do inteiro seguro mantém precisão (0.215871ms)
+✔ quantidade zero ou negativa é rejeitada (0.13007ms)
+✔ estoque insuficiente não modifica estado (0.086353ms)
+✔ venda do estoque exato zera saldo (0.070838ms)
+✔ produto inexistente é rejeitado (0.151161ms)
+✔ histórico conserva preço e nome após editar e excluir (0.17625ms)
+✔ estado completo pode ser serializado e validado (1.625464ms)
+✔ estado corrompido é rejeitado (0.367934ms)
+✔ total adulterado é rejeitado ao carregar (0.224925ms)
+✔ formatação de dinheiro mantém centavos e agrupamento (27.828998ms)
+ℹ tests 30
+ℹ suites 0
+ℹ pass 30
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 242.068897

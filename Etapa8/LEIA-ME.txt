@@ -1,0 +1,45 @@
+GAMESTORE - ETAPA 8
+Autor: Lucas Oliveira
+
+COMO ABRIR
+1. Extraia o ZIP por completo.
+2. Abra GameStoreWeb/index.html no Chrome ou Edge atualizado.
+3. Use o menu do próprio sistema para navegar entre as quatro telas.
+Não requer Java, NetBeans, Node, instalação de bibliotecas ou acesso à internet para usar o front-end.
+
+Se o navegador bloquear o armazenamento em arquivos locais, sirva a pasta GameStoreWeb por HTTP estático (por exemplo, com a extensão Live Server do editor ou Python: python -m http.server 8000). Depois abra http://localhost:8000. Isso apenas serve os arquivos; não é um back-end da aplicação.
+
+ENTREGA
+GameStoreWeb/: quatro páginas HTML e arquivos CSS/JS separados.
+wireframes/index.html: índice navegável dos quatro wireframes.
+wireframes/Wireframes_GameStore_Etapa8.pdf: wireframes documentados.
+wireframes/*.svg: desenhos vetoriais editáveis de baixa fidelidade.
+evidencias/: capturas reais e resultados da verificação.
+testes/domain.test.cjs: testes automatizados do domínio JavaScript (opcional, requer Node 18+; executar node --test testes/domain.test.cjs).
+
+PÁGINAS E FLUXOS
+index.html: visão geral, indicadores, estoque e últimas vendas.
+produtos.html: catálogo, busca, filtro, cadastro, edição e exclusão com confirmação.
+nova-venda.html: produto, quantidade, resumo calculado e confirmação.
+historico.html: vendas, busca e total dos resultados.
+Os quatro arquivos oferecem o mesmo menu e permitem navegar sem recarregar o documento, por rotas hash.
+
+VALIDAÇÕES
+Nome obrigatório (1 a 100 caracteres) e único, desconsiderando caixa e espaços externos.
+Preço entre R$ 0,01 e R$ 99.999.999,99, com no máximo duas casas; aceita vírgula ou ponto decimal.
+Estoque inteiro entre 0 e 2.147.483.647; quantidade de venda inteira positiva e não superior ao estoque.
+Cálculos usam BigInt em centavos. O histórico preserva o nome e o preço da época da venda.
+Campos inválidos recebem mensagens, foco e indicação acessível.
+
+DADOS E ESCOPO
+Os seis produtos iniciais são fictícios. Não existem pagamentos reais, autenticação, servidor de negócios ou conexão com banco.
+Os registros são gravados em localStorage somente no navegador/origem atual, na chave gamestore.etapa8.v1.
+Limpar os dados do navegador remove os registros locais. Arquivos HTML abertos separadamente pelo sistema operacional podem ter áreas de armazenamento diferentes, conforme o navegador. Para uso consistente, inicie por index.html e navegue pelo menu, ou sirva todos os arquivos na mesma origem HTTP.
+Não há sincronização com o Java das etapas anteriores. As regras foram reproduzidas em JavaScript para o protótipo de front-end desta etapa.
+O nome do administrador é apenas conteúdo de demonstração; não há sistema de login.
+
+VERIFICAÇÃO
+30 testes automatizados de JavaScript aprovados.
+Fluxos de cadastro, edição, exclusão, validações, filtros, venda, histórico e persistência testados em navegador.
+Responsividade verificada em frame com largura de 360 px; tabelas possuem rolagem horizontal própria.
+As capturas mostram dados de demonstração e de testes; esses registros não são incluídos nos arquivos do aplicativo.

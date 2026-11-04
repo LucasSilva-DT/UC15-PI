@@ -52,3 +52,9 @@ Foi adotada a alternativa de projeto novo prevista no enunciado. Esta etapa prep
 O projeto `GameStoreTestes/` executa 28 testes JUnit 4.13.2 sobre os fontes reais da GameStore. Bibliotecas incluídas; requer JDK 17+. No NetBeans, abra `GameStoreTestes` e use Testar Projeto ou Executar. No terminal, execute `ant clean test` dentro dessa pasta.
 
 Plano de testes e evidências de versionamento: `Etapa7/documentos/`. Saída real dos testes e relatório XML: `Etapa7/evidencias/`.
+
+## Etapa 8 - Front-end e wireframes
+
+O protótipo HTML/CSS/JavaScript está em `Etapa8/GameStoreWeb/`. Abra `index.html` e use o menu para navegar. Os quatro wireframes estão em `Etapa8/wireframes/`, em HTML, SVG e PDF. O aplicativo salva dados somente no navegador; não depende de back-end ou bibliotecas externas.
+
+Cadastro, edição, exclusão, busca, filtros, cálculo de vendas e histórico foram implementados. Foram executados 30 testes de domínio JavaScript e verificados os fluxos em navegador. Consulte `Etapa8/LEIA-ME.txt` para os detalhes de uso e escopo.
