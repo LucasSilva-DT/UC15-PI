@@ -1,0 +1,9 @@
+STATUS: PUBLICADO
+Repositório público: https://github.com/LucasSilva-DT/UC15-PI
+Branch: main
+Commit do código: e15d43cbce9dbc420cf1cb2fdc94f6468ae667a9
+Link do commit: https://github.com/LucasSilva-DT/UC15-PI/commit/e15d43cbce9dbc420cf1cb2fdc94f6468ae667a9
+Data do commit: 04/11/2026 às 15:51:47 (Brasília).
+Capturas: github-repositorio.jpg e github-commit.jpg.
+O relatório inclui as duas capturas, o link e a identificação do commit.
+As capturas registram a publicação do código; os documentos e evidências são adicionados em commit posterior.

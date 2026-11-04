@@ -45,6 +45,8 @@ documentos/Relatorio_Tecnico.pdf: SOLID, separação de responsabilidades, padr�
 evidencias/: saídas reais dos testes, compilação e registro Git local.
 GameStore_Etapa6.bundle: cópia transportável do repositório Git local.
 
-GITHUB
+GITHUB — PUBLICADO
 Repositório: https://github.com/LucasSilva-DT/UC15-PI
-Consulte as evidências de publicação e o relatório técnico.
+Commit do código: e15d43cbce9dbc420cf1cb2fdc94f6468ae667a9
+As capturas reais e a identificação do commit estão no relatório e em evidencias/.
+Use este ZIP atualizado para entregar a atividade.
