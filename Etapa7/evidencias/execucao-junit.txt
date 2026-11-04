@@ -1,0 +1,13 @@
+Buildfile: /workspace/scratch/23ebfad7504c/etapa7/GameStoreTestes/build.xml
+
+clean:
+
+compile:
+    [mkdir] Created dir: /workspace/scratch/23ebfad7504c/etapa7/GameStoreTestes/build/classes
+    [javac] Compiling 12 source files to /workspace/scratch/23ebfad7504c/etapa7/GameStoreTestes/build/classes
+
+compile-test:
+    [mkdir] Created dir: /workspace/scratch/23ebfad7504c/etapa7/GameStoreTestes/build/test/classes
+    [javac] Compiling 3 source files to /workspace/scratch/23ebfad7504c/etapa7/GameStoreTestes/build/test/classes
+
+test:

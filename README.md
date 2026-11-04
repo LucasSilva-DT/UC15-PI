@@ -46,3 +46,9 @@ Cadastro, listagem, alteração e exclusão de produtos; controle de estoque; re
 `ConsoleUI` apresenta a interface; `StoreService` implementa os casos de uso; `StoreRepository` abstrai persistência; `FileRepository` e `MemoryRepository` implementam esse contrato; `Product`, `Sale` e `StoreState` representam o domínio imutável.
 
 Foi adotada a alternativa de projeto novo prevista no enunciado. Esta etapa prepara o domínio para futura interface web. Operação local, uma instância por arquivo.
+
+## Etapa 7 - Testes JUnit
+
+O projeto `GameStoreTestes/` executa 28 testes JUnit 4.13.2 sobre os fontes reais da GameStore. Bibliotecas incluídas; requer JDK 17+. No NetBeans, abra `GameStoreTestes` e use Testar Projeto ou Executar. No terminal, execute `ant clean test` dentro dessa pasta.
+
+Plano de testes e evidências de versionamento: `Etapa7/documentos/`. Saída real dos testes e relatório XML: `Etapa7/evidencias/`.

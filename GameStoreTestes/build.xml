@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="GameStoreTestes" default="test" basedir=".">
+    <property file="nbproject/project.properties"/>
+    <path id="dependencies"><fileset dir="lib" includes="*.jar"/></path>
+    <target name="clean"><delete dir="build"/><delete dir="reports"/></target>
+    <target name="compile">
+        <mkdir dir="build/classes"/>
+        <javac destdir="build/classes" release="17" encoding="UTF-8" includeantruntime="false">
+            <src path="src"/><src path="../GameStore/src"/><classpath refid="dependencies"/>
+            <compilerarg value="-Xlint:all"/><compilerarg value="-Werror"/>
+        </javac>
+    </target>
+    <target name="compile-test" depends="compile">
+        <mkdir dir="build/test/classes"/>
+        <javac srcdir="test" destdir="build/test/classes" release="17" encoding="UTF-8" includeantruntime="false">
+            <classpath><path refid="dependencies"/><pathelement location="build/classes"/></classpath>
+            <compilerarg value="-Xlint:all"/><compilerarg value="-Werror"/>
+        </javac>
+    </target>
+    <target name="test" depends="compile-test">
+        <java classname="br.com.gamestore.testes.TestRunner" fork="true" failonerror="true" dir=".">
+            <classpath><path refid="dependencies"/><pathelement location="build/classes"/><pathelement location="build/test/classes"/></classpath>
+            <jvmarg value="-Dfile.encoding=UTF-8"/>
+        </java>
+    </target>
+    <target name="run" depends="test"/>
+    <target name="jar" depends="test"/>
+</project>

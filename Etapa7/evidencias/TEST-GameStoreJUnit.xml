@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="GameStoreJUnit" tests="28" failures="0" errors="0" skipped="0" time="0.091">
+  <testcase classname="br.com.gamestore.SaleTest" name="calculaCentavosSemErroDePontoFlutuante"></testcase>
+  <testcase classname="br.com.gamestore.SaleTest" name="totalDeUmaUnidadeMantemPreco"></testcase>
+  <testcase classname="br.com.gamestore.SaleTest" name="calculaQuantidadeGrandeSemOverflowInteiro"></testcase>
+  <testcase classname="br.com.gamestore.SaleTest" name="rejeitaPrecoZeroOuNegativo"></testcase>
+  <testcase classname="br.com.gamestore.SaleTest" name="rejeitaQuantidadeNegativa"></testcase>
+  <testcase classname="br.com.gamestore.SaleTest" name="rejeitaQuantidadeZero"></testcase>
+  <testcase classname="br.com.gamestore.SaleTest" name="calculaTotalDeDuasUnidades"></testcase>
+  <testcase classname="br.com.gamestore.ProductTest" name="rejeitaNomeEmBranco"></testcase>
+  <testcase classname="br.com.gamestore.ProductTest" name="aceitaPrecoInteiro"></testcase>
+  <testcase classname="br.com.gamestore.ProductTest" name="rejeitaEstoqueNegativo"></testcase>
+  <testcase classname="br.com.gamestore.ProductTest" name="rejeitaPrecoZero"></testcase>
+  <testcase classname="br.com.gamestore.ProductTest" name="rejeitaPrecoNegativo"></testcase>
+  <testcase classname="br.com.gamestore.ProductTest" name="removeEspacosExternosDoNome"></testcase>
+  <testcase classname="br.com.gamestore.ProductTest" name="aceitaEstoqueZero"></testcase>
+  <testcase classname="br.com.gamestore.ProductTest" name="rejeitaMaisDeDuasCasasDecimais"></testcase>
+  <testcase classname="br.com.gamestore.StoreServiceTest" name="rejeitaCadastroDuplicadoIgnorandoCaixaEEspacos"></testcase>
+  <testcase classname="br.com.gamestore.StoreServiceTest" name="rejeitaQuantidadeZeroOuNegativaSemAlterarEstado"></testcase>
+  <testcase classname="br.com.gamestore.StoreServiceTest" name="listasNaoPermitemAlteracaoExterna"></testcase>
+  <testcase classname="br.com.gamestore.StoreServiceTest" name="rejeitaVendaDeProdutoInexistente"></testcase>
+  <testcase classname="br.com.gamestore.StoreServiceTest" name="repositorioEmMemoriaPermiteReabrirServico"></testcase>
+  <testcase classname="br.com.gamestore.StoreServiceTest" name="rejeitaVendaMaiorQueEstoqueSemAlterarEstado"></testcase>
+  <testcase classname="br.com.gamestore.StoreServiceTest" name="permiteVenderTodoOEstoque"></testcase>
+  <testcase classname="br.com.gamestore.StoreServiceTest" name="rejeitaAlteracaoInvalidaSemModificarProduto"></testcase>
+  <testcase classname="br.com.gamestore.StoreServiceTest" name="alteraProdutoPreservandoId"></testcase>
+  <testcase classname="br.com.gamestore.StoreServiceTest" name="erroDePersistenciaNaoConfirmaVenda"></testcase>
+  <testcase classname="br.com.gamestore.StoreServiceTest" name="vendaBaixaEstoqueERegistraTotal"></testcase>
+  <testcase classname="br.com.gamestore.StoreServiceTest" name="rejeitaAlteracaoParaNomeDuplicadoSemModificarProduto"></testcase>
+  <testcase classname="br.com.gamestore.StoreServiceTest" name="historicoPreservaNomeEPrecoAposAlterarEExcluir"></testcase>
+</testsuite>

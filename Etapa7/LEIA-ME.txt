@@ -1,0 +1,26 @@
+# Etapa 7 - Testes JUnit GameStore
+
+Autor: Lucas Oliveira.
+
+A pasta GameStore contém a aplicação da Etapa 6. GameStoreTestes é o novo projeto Java NetBeans / Ant com JUnit 4.13.2. Mantenha as duas pastas lado a lado.
+
+Abra GameStoreTestes no NetBeans e use Testar Projeto (Alt+F6) ou Executar. Requer JDK 17 ou superior. As bibliotecas necessárias estão incluídas em lib; os testes funcionam sem baixar dependências.
+
+Terminal com Ant: entre em GameStoreTestes e execute ant clean test.
+Windows: executar-testes.bat, com JDK no PATH.
+Linux/macOS: sh executar-testes.sh, com JDK no PATH.
+
+Resultado verificado: 28 testes executados, 0 falhas e 0 ignorados.
+Relatório XML: GameStoreTestes/reports/TEST-GameStoreJUnit.xml.
+Cópias das evidências da execução ficam em evidencias/.
+Plano de testes: documentos/Plano_de_Testes_Etapa7.pdf.
+Evidência de versionamento: documentos/Evidencia_GitHub_Etapa7.pdf.
+
+Os cenários manuais do plano são planejados; a interface web é uma evolução futura. O código de produção foi reaproveitado sem alterar regras de negócio. O método Sale.total() já oferece o cálculo isolado exigido para os testes.
+
+Repositório: https://github.com/LucasSilva-DT/UC15-PI
+Projeto de testes: GameStoreTestes/
+Documentos da Etapa 7 no repositório: Etapa7/documentos/
+Evidências da Etapa 7 no repositório: Etapa7/evidencias/
+
+Entregue o arquivo ZIP completo na plataforma da atividade.
