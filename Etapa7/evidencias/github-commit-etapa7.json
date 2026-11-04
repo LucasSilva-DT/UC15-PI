@@ -1,0 +1,18 @@
+{
+  "sha": "bbde889c007b1b833a9f5178fdf20b9e0dcd88fa",
+  "html_url": "https://github.com/LucasSilva-DT/UC15-PI/commit/bbde889c007b1b833a9f5178fdf20b9e0dcd88fa",
+  "message": "Etapa 7: adiciona projeto NetBeans com 28 testes JUnit",
+  "tree": {
+    "sha": "b55f517a20070d985694a560053065a3bfda6666",
+    "url": "https://api.github.com/repos/LucasSilva-DT/UC15-PI/git/trees/b55f517a20070d985694a560053065a3bfda6666"
+  },
+  "parents": [
+    {
+      "sha": "6a79cbaa029a7c454625ee394906c1f195b25035",
+      "url": "https://api.github.com/repos/LucasSilva-DT/UC15-PI/git/commits/6a79cbaa029a7c454625ee394906c1f195b25035",
+      "html_url": "https://github.com/LucasSilva-DT/UC15-PI/commit/6a79cbaa029a7c454625ee394906c1f195b25035"
+    }
+  ],
+  "published_at_utc": "2026-11-04T19:10:23Z",
+  "branch": "main"
+}
